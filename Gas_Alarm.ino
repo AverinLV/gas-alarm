@@ -18,7 +18,7 @@ int PDK = 350; // Limit value
 
 void setup() 
 {
-  //Serial.begin(9600); // Инициализируем серийный порт
+  //Serial.begin(9600); // Initialising the Serial Port
   pinMode(piezo, OUTPUT);
   
   digitalWrite(piezo, HIGH);   // turn the LED on (HIGH is the voltage level)
